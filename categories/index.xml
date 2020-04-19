@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on shiyindaddy&#39;s BLOG</title>
+    <link>http://shiyindaddy.github.io/categories/</link>
+    <description>Recent content in Categories on shiyindaddy&#39;s BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cmn-Hans</language>
+    <copyright>© 2020 shiyindaddy&#39;s BLOG</copyright>
+    <lastBuildDate>Fri, 17 Apr 2020 17:12:51 +0800</lastBuildDate>
+    
+	<atom:link href="http://shiyindaddy.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Welcome</title>
+      <link>http://shiyindaddy.github.io/categories/welcome/</link>
+      <pubDate>Fri, 17 Apr 2020 17:12:51 +0800</pubDate>
+      
+      <guid>http://shiyindaddy.github.io/categories/welcome/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

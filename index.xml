@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shiyindaddy&#39;s BLOG</title>
+    <link>http://shiyindaddy.github.io/</link>
+    <description>Recent content on shiyindaddy&#39;s BLOG</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cmn-Hans</language>
+    <copyright>© 2020 shiyindaddy&#39;s BLOG</copyright>
+    <lastBuildDate>Fri, 17 Apr 2020 17:12:51 +0800</lastBuildDate>
+    
+	<atom:link href="http://shiyindaddy.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>欢迎访问我的博客</title>
+      <link>http://shiyindaddy.github.io/posts/welcome/</link>
+      <pubDate>Fri, 17 Apr 2020 17:12:51 +0800</pubDate>
+      
+      <guid>http://shiyindaddy.github.io/posts/welcome/</guid>
+      <description>这是我用Hugo和GitHub Pages完成的第一篇博客！
+以后还请多多指教！</description>
+    </item>
+    
+    <item>
+      <title>关于我@shiyindaddy</title>
+      <link>http://shiyindaddy.github.io/about/desc/</link>
+      <pubDate>Fri, 17 Apr 2020 17:12:22 +0800</pubDate>
+      
+      <guid>http://shiyindaddy.github.io/about/desc/</guid>
+      <description>你为什么那么努力？
+因为我想买的东西很贵，我想去的地方很远，我想爱的人很优秀。</description>
+    </item>
+    
+  </channel>
+</rss>
