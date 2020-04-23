@@ -7,10 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cmn-Hans</language>
     <copyright>© 2020 shiyindaddy&#39;s BLOG</copyright>
-    <lastBuildDate>Fri, 17 Apr 2020 17:12:51 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 23 Apr 2020 17:02:22 +0800</lastBuildDate>
     
 	<atom:link href="http://shiyindaddy.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>使用Hugo&#43;GitHub Pages搭建个人博客</title>
+      <link>http://shiyindaddy.github.io/posts/hugo_githubpages_blog/</link>
+      <pubDate>Thu, 23 Apr 2020 17:02:22 +0800</pubDate>
+      
+      <guid>http://shiyindaddy.github.io/posts/hugo_githubpages_blog/</guid>
+      <description>Hugo安装，官方文档：https://gohugo.io/getting-started/installing/
+Hugo下载：https://github.com/gohugoio/hugo/releases
+这里我选择二进制解压安装的方式在MacOS上安装Hugo。
+https://github.com/gohugoio/hugo/releases/download/v0.69.0/hugo_0.69.0_macOS-64bit.tar.gz
+1、解压tar包，复制hugo到/usr/local/bin/目录下 kai@KaideMacBook-Pro  ~  hugo version
+Hugo Static Site Generator v0.69.0-4205844B darwin/amd64 BuildDate: 2020-04-10T09:10:40Z
+此时我们就可以使用hugo了。
+2、创建站点 kai@KaideMacBook-Pro  ~  mkdir /Users/kai/Hugo
+kai@KaideMacBook-Pro  ~  hugo new site /Users/kai/Hugo
+kai@KaideMacBook-Pro  ~/Hugo  hugo server
+此时我们浏览器访问http://localhost:1313，会发现是一个完全空白的页面：
+3、选择一个主题，放入themes文件夹 Hugo主题下载：https://themes.gohugo.io/
+这里我选择的是Dream这个主题：https://themes.gohugo.io/hugo-theme-dream/
+Demo：https://themes.gohugo.io/theme/hugo-theme-dream/
+下载连接：https://codeload.github.com/g1eny0ung/hugo-theme-dream/zip/master
+详细的配置请参考：https://g1eny0ung.site/hugo-theme-dream/
+4、修改config.toml文件 5、创建文章 kai@KaideMacBook-Pro  ~  cd /Users/kai/Hugo
+kai@KaideMacBook-Pro  ~/Hugo  hugo new about/desc.md
+kai@KaideMacBook-Pro  ~/Hugo  hugo new posts/welcome.md</description>
+    </item>
     
     <item>
       <title>欢迎访问我的博客</title>

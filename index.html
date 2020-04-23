@@ -26,7 +26,7 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://shiyindaddy.github.io/" />
-<meta property="og:updated_time" content="2020-04-17T17:12:51+08:00" />
+<meta property="og:updated_time" content="2020-04-23T17:02:22+08:00" />
 
 
 
@@ -109,6 +109,10 @@
   
   <section class="ui attached center aligned segment dream-tags">
     
+      <a class="ui label" href="/tags/blog" title="blog">blog</a>
+    
+      <a class="ui label" href="/tags/hugo" title="hugo">hugo</a>
+    
       <a class="ui label" href="/tags/welcome" title="welcome">welcome</a>
     
       <a class="ui label" href="/tags/%E6%AC%A2%E8%BF%8E" title="欢迎">欢迎</a>
@@ -119,6 +123,22 @@
   
   <section class="ui attached segment dream-categories">
     <div class="ui accordion">
+      
+        <div class="title">
+          <i class="dropdown icon"></i>
+          <a href="/categories/hugo" class="item">hugo</a>
+        </div>
+        <div class="content">
+          <div class="ui list">
+          
+            <div class="item">
+              <div class="content">
+                <a href="http://shiyindaddy.github.io/posts/hugo_githubpages_blog/" class="item">使用Hugo&#43;GitHub Pages搭建个人博客</a>
+              </div>
+            </div>
+          
+          </div>
+        </div>
       
         <div class="title">
           <i class="dropdown icon"></i>
@@ -151,6 +171,59 @@
   </div>
 
   
+  
+    
+    <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    
+      
+<article class="ui raised card dream-card">
+
+  <div class="image">
+    
+      <img src="/img/hugo.jpg" alt="使用Hugo&#43;GitHub Pages搭建个人博客" />
+    
+  </div>
+
+  <div class="content">
+    <h2 class="ui medium header">
+      <a href="http://shiyindaddy.github.io/posts/hugo_githubpages_blog/">使用Hugo&#43;GitHub Pages搭建个人博客</a>
+    </h2>
+    <div class="meta">
+      <p class="date">Thursday, Apr 23, 2020</p>
+      <p class="author">@ shiyindaddy</p>
+    </div>
+    <div class="description">
+      Hugo安装，官方文档：https://gohugo.io/getting-started/installing/
+Hugo下载：https://github.com/gohugoio/hugo/releases
+这里我选择二进制解压安装的方式在MacOS上安装Hugo。
+https://github.com/gohugoio/hugo/releases/download/v0.69.0/hugo_0.69.0_macOS-64bit.tar.gz
+1、解压tar包，复制hugo到/usr/local/bin/目录下 kai@KaideMacBook-Pro  ~  hugo version
+Hugo Static Site Generator v0.69.0-4205844B darwin/amd64 BuildDate: 2020-04-10T09:10:40Z
+此时我们就可以使用hugo了。
+2、创建站点 kai@KaideMacBook-Pro  ~  mkdir /Users/kai/Hugo
+kai@KaideMacBook-Pro  ~  hugo new site /Users/kai/Hugo
+kai@KaideMacBook-Pro  ~/Hugo  hugo server
+此时我们浏览器访问http://localhost:1313，会发现是一个完全空白的页面：
+3、选择一个主题，放入themes文件夹 Hugo主题下载：https://themes.gohugo.io/
+这里我选择的是Dream这个主题：https://themes.gohugo.io/hugo-theme-dream/
+Demo：https://themes.gohugo.io/theme/hugo-theme-dream/
+下载连接：https://codeload.github.com/g1eny0ung/hugo-theme-dream/zip/master
+详细的配置请参考：https://g1eny0ung.site/hugo-theme-dream/
+4、修改config.toml文件 5、创建文章 kai@KaideMacBook-Pro  ~  cd /Users/kai/Hugo
+kai@KaideMacBook-Pro  ~/Hugo  hugo new about/desc.md
+kai@KaideMacBook-Pro  ~/Hugo  hugo new posts/welcome.md
+    </div>
+  </div>
+
+  <div class="extra content">
+    <a>
+      <i class="clock icon"></i>
+      2 分钟阅读
+    </a>
+  </div>
+</article>
+
+    </div>
   
     
     <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
