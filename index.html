@@ -26,7 +26,7 @@
 <meta property="og:description" content="" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://shiyindaddy.github.io/" />
-<meta property="og:updated_time" content="2020-04-23T17:02:22+08:00" />
+<meta property="og:updated_time" content="2020-04-24T09:40:26+08:00" />
 
 
 
@@ -113,6 +113,10 @@
     
       <a class="ui label" href="/tags/hugo" title="hugo">hugo</a>
     
+      <a class="ui label" href="/tags/k8s" title="k8s">k8s</a>
+    
+      <a class="ui label" href="/tags/k8s%E9%83%A8%E7%BD%B2" title="k8s部署">k8s部署</a>
+    
       <a class="ui label" href="/tags/welcome" title="welcome">welcome</a>
     
       <a class="ui label" href="/tags/%E6%AC%A2%E8%BF%8E" title="欢迎">欢迎</a>
@@ -134,6 +138,22 @@
             <div class="item">
               <div class="content">
                 <a href="http://shiyindaddy.github.io/posts/hugo_githubpages_blog/" class="item">使用Hugo&#43;GitHub Pages搭建个人博客</a>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+      
+        <div class="title">
+          <i class="dropdown icon"></i>
+          <a href="/categories/k8s" class="item">k8s</a>
+        </div>
+        <div class="content">
+          <div class="ui list">
+          
+            <div class="item">
+              <div class="content">
+                <a href="http://shiyindaddy.github.io/posts/kubernetes-v1.18.2-deploy/" class="item">基于CentOS7.7 以二进制方式部署Kubernetes v1.18.2</a>
               </div>
             </div>
           
@@ -171,6 +191,49 @@
   </div>
 
   
+  
+    
+    <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">
+    
+      
+<article class="ui raised card dream-card">
+
+  <div class="image">
+    
+      <img src="/img/k8s.png" alt="基于CentOS7.7 以二进制方式部署Kubernetes v1.18.2" />
+    
+  </div>
+
+  <div class="content">
+    <h2 class="ui medium header">
+      <a href="http://shiyindaddy.github.io/posts/kubernetes-v1.18.2-deploy/">基于CentOS7.7 以二进制方式部署Kubernetes v1.18.2</a>
+    </h2>
+    <div class="meta">
+      <p class="date">Friday, Apr 24, 2020</p>
+      <p class="author">@ shiyindaddy</p>
+    </div>
+    <div class="description">
+      本文篇幅较长😂️ Kubernetes 1.18版本：
+https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.18.md
+Kubernetes和Etcd集群数字证书生成工具：
+GitHub - iKubernetes/k8s-certs-generator: Kubernetes和Etcd集群数字证书生成工具~
+https://codeload.github.com/iKubernetes/k8s-certs-generator/zip/master
+k8s-bin-inst：
+https://codeload.github.com/iKubernetes/k8s-bin-inst/zip/master
+3个master节点，3个node节点，3个etcd节点。对应关系如下：（实验测试环境下，1个master节点，3个node节点即可。）
+              k8s节点 ip地址 hostname       master 172.16.210.31 master01 master01.example.com etcd01 etcd01.example.com kubernetes-api.example.com   master 172.16.210.32 master02 master02.example.com etcd02 etcd02.example.com kubernetes-api.example.com   master 172.16.210.33 master03 master03.example.com etcd03 etcd03.example.com kubernetes-api.example.com   node 172.16.210.51 node1 node1.example.com      node 172.
+    </div>
+  </div>
+
+  <div class="extra content">
+    <a>
+      <i class="clock icon"></i>
+      9 分钟阅读
+    </a>
+  </div>
+</article>
+
+    </div>
   
     
     <div class="sixteen wide mobile eight wide tablet four wide computer column dream-column">

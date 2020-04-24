@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cmn-Hans</language>
     <copyright>© 2020 shiyindaddy&#39;s BLOG</copyright>
-    <lastBuildDate>Thu, 23 Apr 2020 17:02:22 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2020 09:40:26 +0800</lastBuildDate>
     
 	<atom:link href="http://shiyindaddy.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>k8s</title>
+      <link>http://shiyindaddy.github.io/categories/k8s/</link>
+      <pubDate>Fri, 24 Apr 2020 09:40:26 +0800</pubDate>
+      
+      <guid>http://shiyindaddy.github.io/categories/k8s/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Hugo</title>

@@ -7,10 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cmn-Hans</language>
     <copyright>© 2020 shiyindaddy&#39;s BLOG</copyright>
-    <lastBuildDate>Thu, 23 Apr 2020 17:02:22 +0800</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2020 09:40:26 +0800</lastBuildDate>
     
 	<atom:link href="http://shiyindaddy.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>基于CentOS7.7 以二进制方式部署Kubernetes v1.18.2</title>
+      <link>http://shiyindaddy.github.io/posts/kubernetes-v1.18.2-deploy/</link>
+      <pubDate>Fri, 24 Apr 2020 09:40:26 +0800</pubDate>
+      
+      <guid>http://shiyindaddy.github.io/posts/kubernetes-v1.18.2-deploy/</guid>
+      <description>本文篇幅较长😂️ Kubernetes 1.18版本：
+https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.18.md
+Kubernetes和Etcd集群数字证书生成工具：
+GitHub - iKubernetes/k8s-certs-generator: Kubernetes和Etcd集群数字证书生成工具~
+https://codeload.github.com/iKubernetes/k8s-certs-generator/zip/master
+k8s-bin-inst：
+https://codeload.github.com/iKubernetes/k8s-bin-inst/zip/master
+3个master节点，3个node节点，3个etcd节点。对应关系如下：（实验测试环境下，1个master节点，3个node节点即可。）
+              k8s节点 ip地址 hostname       master 172.16.210.31 master01 master01.example.com etcd01 etcd01.example.com kubernetes-api.example.com   master 172.16.210.32 master02 master02.example.com etcd02 etcd02.example.com kubernetes-api.example.com   master 172.16.210.33 master03 master03.example.com etcd03 etcd03.example.com kubernetes-api.example.com   node 172.16.210.51 node1 node1.example.com      node 172.</description>
+    </item>
     
     <item>
       <title>使用Hugo&#43;GitHub Pages搭建个人博客</title>
